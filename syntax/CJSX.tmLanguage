@@ -912,6 +912,21 @@
 				</dict>
 			</array>
 		</dict>
+		<key>jsx-tag-attribute-name</key>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.other.attribute-name.html</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>\b([a-zA-Z\-:]+)</string>
+			<key>name</key>
+			<string>meta.tag.attribute-name.html</string>
+		</dict>
 		<key>jsx-tag-attributes</key>
 		<dict>
 			<key>patterns</key>
