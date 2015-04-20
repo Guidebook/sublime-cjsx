@@ -1,0 +1,16 @@
+{
+  "name": "sublime-cjsx",
+  "version": "0.1.0",
+  "author": "Kevin Wood <kevin@guidebook.com>",
+  "description": "CJSX Syntax Highlighting",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Guidebook/sublime-cjsx.git"
+  },
+  "dependencies" : {
+    "async": "~0.7.0"
+  },
+  "license": "Apache 2.0"
+}
