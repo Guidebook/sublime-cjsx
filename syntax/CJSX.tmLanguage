@@ -879,7 +879,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(&lt;/)(\2)([^&gt;]*&gt;)</string>
+			<string>(&lt;/)(\2)([^&gt;]*&gt;)|(\/&gt;)</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>1</key>
@@ -970,7 +970,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(&lt;/)([^&gt;]+)(&gt;)</string>
+			<string>(&lt;/)([^&gt;]+)(&gt;)|(\/&gt;)</string>
 			<key>name</key>
 			<string>tag.close.coffee</string>
 		</dict>
