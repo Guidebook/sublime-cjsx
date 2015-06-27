@@ -4,6 +4,17 @@ Sublime syntax highlighting for CJSX
 
 ## Installation
 
+### Install via Package Control
+
+1. You will need the [Package Control](https://packagecontrol.io/installation) Package Manager for Sublime
+1. Open the command pallete with `⌘+shift+p`
+1. Type `install` and select `Package Control: Install Package`
+1. Wait a moment for the package list to appear, and type `cjsx` and select `CJSX Syntax`
+1. Open a .cjsx file and in the lower right hand corner of your Sublime window, open the syntax dropdown.
+1. Select "Open all with current extension as..." and then choose 'CJSX'
+
+### Install from source
+
 To install this plugin from Github, follow these steps:
 
 1. Open Sublime and open "Package Control" (cmd + shift + p).
@@ -15,8 +26,9 @@ To install this plugin from Github, follow these steps:
 1. Type "sublime cjsx"; select the result (hit enter).
 1. Give Sublime a few minutes to install the package.
 1. Open a .cjsx file and in the lower right hand corner of your Sublime window, open the syntax dropdown.
-1. Select 'CJSX' and smile.
+1. Select "Open all with current extension as..." and then choose 'CJSX'
 
 ## Credit
 
 Syntax highlighting adapted from sublime-react by Facebook / Jonas Gebhardt <jonas.gebhardt@gmail.com>.
+
