@@ -2,6 +2,10 @@
 
 Sublime syntax highlighting for CJSX
 
+## Version Support
+
+This package uses the `.sublime-syntax` syntax definition for rich highlighting and improved performance. As a consequence, only Sublime Text 3, Build 3103 and newer is supported. If you're using Sublime Text 2 or an older version of Sublime Text 3, you can retrieve the old `.tmLanguage` file from [this commit](https://github.com/Guidebook/sublime-cjsx/tree/b23f7cd2fbad387f904a8ead2cb3a79f983c9897) -- however, only the master `.sublime-syntax` definition will receive future updates.
+
 ## Installation
 
 ### Install via Package Control
