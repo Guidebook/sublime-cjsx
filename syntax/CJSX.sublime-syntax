@@ -145,7 +145,7 @@ contexts:
       scope: constant.language.null.coffee
     - match: '\b(?<!\.)(this|extends)(?!\s*[:=])\b'
       scope: variable.language.coffee
-    - match: '(class\b)\s+(@?[a-zA-Z\$_][\w\.]*)?(?:\s+(extends)\s+(@?[a-zA-Z\$\._][\w\.]*))?'
+    - match: '\b(class\b)\s+(@?[a-zA-Z\$_][\w\.]*)?(?:\s+(extends)\s+(@?[a-zA-Z\$\._][\w\.]*))?'
       scope: meta.class.coffee
       captures:
         1: storage.type.class.coffee
