@@ -131,7 +131,7 @@ contexts:
         3: entity.name.function.coffee
         4: variable.parameter.function.coffee
         5: storage.type.function.coffee
-    - match: ^\s*(describe|it|app\.(get|post|put|all|del|delete))
+    - match: ^\s*(describe|it|app\.(get|post|put|all|del|delete))[^\w]
       comment: Show well-known functions from Express and Mocha in Go To Symbol view
       push:
         - meta_scope: meta.function.symbols.coffee
